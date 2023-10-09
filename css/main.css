@@ -1,0 +1,142 @@
+#hero {
+    
+    background-color: darkblue;
+    background-image: url("../immagini/velocità.jpg");
+    height: 600px;
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+#hero .content {
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    display : flex;
+    align-items :center;
+    justify-content:center;
+} 
+
+#hero .blur {
+    background-color: rgba(3, 0, 13 ,0.35);
+    backdrop-filter: blur(5px);
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    border: 2px solid green;
+}  
+.main-title {
+    font-size:3rem;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+#form .container {
+    
+    background: rgb(0,31,36);
+    background: linear-gradient(90deg, rgba(0,31,36,1) 0%, rgba(9,72,121,1) 23%, rgba(0,179,255,1) 100%);
+}
+
+
+#carouselCard .footer {
+    border-top: 2px dashed rgb(19, 155, 179) ;
+}
+
+#carouselCard .col-6:last-child{
+    border-left:2px dashed rgb(19, 155, 179) ;
+}
+
+#footer-1 {
+    background: rgb(0,31,36);
+    background: linear-gradient(90deg, rgba(0,31,36,1) 0%, rgba(9,72,121,1) 23%, rgba(0,179,255,1) 100%);
+}
+
+#footer-1 .row {
+   height: 300px;
+}
+
+#footer-2 {
+    background-color:rgb(35, 36, 35);
+    
+}
+
+
+#ultimiArrivi .card {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    position:relative
+}
+
+#ultimiArrivi .span {
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+#category .modCategory {
+  background-color: blue;
+  font-size: larger;
+}
+
+
+
+.modCard {
+    transition: all ease .50s;
+}
+
+
+.textCat {
+    color :#378DFC
+}
+
+
+
+.modCard:hover {
+    background-color: rgb(153, 221, 238);
+    font-size: larger;
+    color: rgb(9, 25, 244);
+}
+
+
+
+
+
+.modCard:hover .textCat {
+    color: rgb(244, 9, 9) !important;
+}
+
+
+.header {
+    background: rgb(0,31,36);
+    background: linear-gradient(90deg, rgba(0,31,36,1) 0%, rgba(9,72,121,1) 23%, rgba(0,179,255,1) 100%);
+}
+
+
+#annunci .card {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    position:relative
+}
+
+#annunci .span {
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+#cardAnnunci .footer {
+    border-top: 2px dashed rgb(19, 155, 179) ;
+}
+
+#cardAnnunci .col-6:last-child{
+    border-left:2px dashed rgb(19, 155, 179) ;
+}
